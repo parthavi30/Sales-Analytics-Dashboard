@@ -1,0 +1,45 @@
+# Project Charter
+
+## Project Name
+
+Sales Performance Analytics Dashboard
+
+## Company
+
+ABC Retail Corporation
+
+## Domain
+
+Retail Sales Analytics
+
+## Role
+
+Sales Data Analyst
+
+## Project Duration
+
+2 Weeks
+
+## Project Background
+
+ABC Retail Corporation operates multiple retail stores across the United States, offering products in Furniture, Office Supplies, and Technology categories.
+
+The Sales team currently prepares monthly sales reports manually using Excel spreadsheets. This process is time-consuming, prone to errors, and makes it difficult to monitor business performance.
+
+To improve reporting efficiency and support data-driven decision-making, management requested an interactive Power BI dashboard that provides real-time visibility into sales performance, profitability, customer trends, and regional performance.
+
+## Business Goal
+
+Develop an executive sales dashboard that enables management to monitor KPIs, identify business opportunities, and make informed strategic decisions.
+
+## Expected Outcome
+
+• Centralized sales reporting
+
+• Improved decision-making
+
+• Reduced manual reporting effort
+
+• Better visibility into regional and product performance
+
+• Executive-level KPI dashboard
