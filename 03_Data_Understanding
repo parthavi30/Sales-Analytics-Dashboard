@@ -1,0 +1,55 @@
+# Data Understanding
+
+## Dataset
+
+Sample Superstore
+
+## Source
+
+Internal ERP Sales Export
+
+## Description
+
+The dataset contains historical retail sales transactions from multiple regions across the United States.
+
+Each record represents a customer order.
+
+## Data Includes
+
+- Customer Information
+- Product Information
+- Sales
+- Profit
+- Discount
+- Quantity
+- Order Date
+- Shipping Details
+- Geographic Information
+
+## Measures
+
+- Sales
+- Profit
+- Quantity
+- Discount
+
+## Dimensions
+
+- Customer
+- Product
+- Category
+- Region
+- State
+- Segment
+- Order Date
+
+## Data Quality Review
+
+The following checks will be performed:
+
+- Missing values
+- Duplicate records
+- Invalid dates
+- Incorrect data types
+- Negative profit values
+- Blank customer names
