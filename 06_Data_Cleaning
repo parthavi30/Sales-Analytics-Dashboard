@@ -1,0 +1,86 @@
+# Data Cleaning
+
+## Objective
+
+Prepare the raw sales dataset for analysis by ensuring data quality, consistency, and accuracy before importing it into Power BI.
+
+---
+
+## Source Dataset
+
+Sample Superstore.xlsx
+
+---
+
+## Data Cleaning Steps
+
+### 1. Verified Column Names
+
+Reviewed all column names and ensured consistent naming conventions.
+
+---
+
+### 2. Checked Missing Values
+
+Reviewed every column for blank or null values.
+
+Result:
+
+No significant missing values were identified.
+
+---
+
+### 3. Removed Duplicate Records
+
+Checked Order ID and Row ID for duplicate transactions.
+
+Result:
+
+No duplicate records found.
+
+---
+
+### 4. Corrected Data Types
+
+Updated data types as follows:
+
+- Order Date → Date
+- Ship Date → Date
+- Sales → Decimal Number
+- Profit → Decimal Number
+- Quantity → Whole Number
+- Discount → Decimal Number
+
+---
+
+### 5. Trimmed Text Columns
+
+Removed extra spaces from:
+
+- Customer Name
+- Product Name
+- City
+- State
+
+---
+
+### 6. Validated Numeric Values
+
+Reviewed:
+
+- Sales
+- Profit
+- Quantity
+- Discount
+
+Confirmed values were valid.
+
+---
+
+### 7. Final Dataset
+
+The cleaned dataset was loaded into Power BI for analysis.
+
+Output:
+
+Clean_Superstore.xlsx
