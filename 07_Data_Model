@@ -1,0 +1,68 @@
+# Data Model
+
+## Objective
+
+Create a star schema to improve dashboard performance and simplify reporting.
+
+---
+
+## Fact Table
+
+FactSales
+
+Contains:
+
+- Order ID
+- Order Date
+- Product ID
+- Customer ID
+- Sales
+- Profit
+- Quantity
+- Discount
+
+---
+
+## Dimension Tables
+
+### DimCustomer
+
+- Customer ID
+- Customer Name
+- Segment
+
+### DimProduct
+
+- Product ID
+- Product Name
+- Category
+- Sub-Category
+
+### DimRegion
+
+- Region
+- State
+- City
+
+### DimDate
+
+- Date
+- Month
+- Quarter
+- Year
+
+---
+
+## Relationships
+
+DimCustomer → FactSales
+
+DimProduct → FactSales
+
+DimRegion → FactSales
+
+DimDate → FactSales
+
+Relationship Type:
+
+One-to-Many
